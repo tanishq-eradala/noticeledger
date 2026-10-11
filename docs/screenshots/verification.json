@@ -1,0 +1,33 @@
+{
+  "checks": [
+    "initial seeded review workspace",
+    "review workspace accessibility checks",
+    "reconciliation blocks UI and API approval",
+    "field-to-source evidence link",
+    "correction requires an audit reason",
+    "corrected fields rerun validation and retain audit evidence",
+    "approval confirmation accessibility checks",
+    "approval requires explicit evidence confirmation",
+    "lost approval response safely retries without a duplicate cash flow",
+    "approved ledger accessibility checks",
+    "CSV contains only approved entries with exact signed amounts",
+    "stale corrections cannot overwrite another review",
+    "duplicate copy rejected with retained reason",
+    "multiline CSV ingestion safely deduplicates a repeated source",
+    "malformed batch contract is rejected",
+    "selectable PDF extraction preserves the original bytes",
+    "import dialog accessibility checks",
+    "UI text import recognizes an existing source",
+    "source markup remains inert text",
+    "390px review layout accessibility checks",
+    "390px mobile layout containment",
+    "320px review layout accessibility checks",
+    "320px mobile layout containment",
+    "processing history accessibility checks",
+    "processing history exposes durable acquisition results",
+    "no unhandled browser errors"
+  ],
+  "count": 26,
+  "axe_enabled": true,
+  "scope": "Disposable synthetic workspace; selected automated WCAG rules, not a complete accessibility audit."
+}
